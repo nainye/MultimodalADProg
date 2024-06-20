@@ -14,7 +14,9 @@ Clinical/Genetic Condition-based Model for Generating Brain T1 MRI Changes Accor
 
 ## Dataset
 
-Alzheimer’s Disease Neuroimaging Initiative (ADNI) 3 [3]
+### Alzheimer’s Disease Neuroimaging Initiative (ADNI) 3 [3]
+
+In this study, we utilized 6,355 T1-weighted MRI datasets. Of these, 308 datasets with confirmed disease progression were designated for evaluation, while the remainder were used for training. The T1-weighted MRI data were standardized through N4ITK bias correction and rigid registration with the MNI152 T1 1mm atlas [4-7]. Subsequently, brain extraction was performed to remove non-brain tissues. The central axial slice of the processed images was extracted for model training and evaluation.
 
 <br/>
 
@@ -46,3 +48,7 @@ Despite limitations in predicting fine structures due to noise addition, the imp
 - [1] Rombach, Robin, et al. "High-resolution image synthesis with latent diffusion models." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp. 10684-10695, 2022.
 - [2] Gal, Rinon, et al. "An image is worth one word: Personalizing text-to-image generation using textual inversion." arXiv preprint arXiv:2208.01618, 2022.
 - [3] Weiner, Michael W., et al. "The Alzheimer's Disease Neuroimaging Initiative 3: Continued innovation for clinical trial improvement." Alzheimer's & Dementia, Vol. 13, No. 5, pp. 561-571, May. 2017.
+- [4] Tustison, Nicholas J., et al. "N4ITK: improved N3 bias correction." IEEE transactions on medical imaging, Vol. 29, No. 6, pp. 1310-1320, April. 2010.
+- [5] Fonov, Vladimir, et al. "Unbiased average age-appropriate atlases for pediatric studies." Neuroimage, Vol. 54, No. 1, pp. 313-327, January. 2011.
+- [6] Fonov, Vladimir S., et al. "Unbiased nonlinear average age-appropriate brain templates from birth to adulthood." NeuroImage, Vol. 47, pp. S102, July. 2009.
+- [7] Collins, D. Louis, et al. "ANIMAL+ INSECT: improved cortical structure segmentation." Information Processing in Medical Imaging: 16th International Conference, IPMI’99 Visegrád, Hungary, pp. 210-223, June 28–July 2, 1999.
